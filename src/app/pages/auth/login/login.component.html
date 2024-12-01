@@ -4,7 +4,7 @@
 
   <div class="form-container">
     <h2 class="form-title">Continue With Us</h2>
-    <form class="form" method="POST" action="/login">
+    <form class="form"  method="POST" action="/login">
       <div class="form-group">
         <label for="email" class="form-label">Email Address</label>
         <input
@@ -15,7 +15,7 @@
           placeholder="Enter your email"
           required
         />
-        <div class="error-message" id="email-error"></div>
+        <div *ngIf=""></div>
       </div>
 
       <div class="form-group">

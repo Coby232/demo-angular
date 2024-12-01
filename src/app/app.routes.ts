@@ -10,14 +10,7 @@ export const routes: Routes = [
       ).then((m) => m.GetStartedComponent);
     },
   },
-  {
-    path: '**',
-    loadComponent: () => {
-      return Promise.resolve(
-        import('./pages/not-found/not-found.component')
-      ).then((m) => m.NotFoundComponent);
-    },
-  },
+
   {
     path: 'auth/login',
     loadComponent: () => {
@@ -201,5 +194,13 @@ export const routes: Routes = [
         },
       },
     ],
+  }, 
+  {
+    path: '**',
+    loadComponent: () => {
+      return Promise.resolve(
+        import('./pages/not-found/not-found.component')
+      ).then((m) => m.NotFoundComponent);
+    },
   },
 ];

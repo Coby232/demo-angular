@@ -7,6 +7,7 @@ import { NavBarComponent } from '../../components/nav-bar/nav-bar.component';
   templateUrl: './get-started.component.html',
   styleUrl: './get-started.component.scss'
 })
+
 export class GetStartedComponent {
 
 }

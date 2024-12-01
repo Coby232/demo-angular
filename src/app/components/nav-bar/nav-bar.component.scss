@@ -19,7 +19,7 @@ nav {
     gap: 1.25rem;
     padding: 0;
 
-    button {
+    a {
       background-color: white;
       border: 1px solid;
       width: 9rem;
@@ -28,6 +28,10 @@ nav {
       border-radius: 0.5rem;
       border:1px solid #00000e23;
       color: #6d66e5;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       &:focus {
         outline: none;
         border: 2px solid #cbd5e1;
