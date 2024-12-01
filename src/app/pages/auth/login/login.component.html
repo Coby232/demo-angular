@@ -1,0 +1,45 @@
+<div class="container">
+  <!-- <script src="TelemetryScriptLoader.js"></script> -->
+  <img src="/businessman-and-company.png" alt="stanbic" class="logo" />
+
+  <div class="form-container">
+    <h2 class="form-title">Continue With Us</h2>
+    <form class="form" method="POST" action="/login">
+      <div class="form-group">
+        <label for="email" class="form-label">Email Address</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-input"
+          placeholder="Enter your email"
+          required
+        />
+        <div class="error-message" id="email-error"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="password" class="form-label">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="form-input"
+          placeholder="Enter your password"
+          required
+        />
+        <div class="error-message" id="password-error"></div>
+      </div>
+
+      <button type="submit" class="form-button">Login</button>
+    </form>
+
+    <div class="register-link">
+      <p>
+        Don’t have an account? 
+        <a href="/auth/create-account" class="link">Register here</a>
+      </p>
+    </div>
+  </div>
+  <small class="footer-text">Auditing at your footsteps</small>
+</div>

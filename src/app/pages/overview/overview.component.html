@@ -1,0 +1,13 @@
+<div>
+  <h3>Services</h3>
+  <ul>
+    <li *ngFor="let item of overview()">
+      <h4>{{ item.title }}</h4>
+      <p>{{ item.description }}</p>
+      <a [href]="item.link">Proceed</a>
+    </li>
+  </ul>
+  <footer>
+    <small>Copyright © 2024</small>
+  </footer>
+</div>
